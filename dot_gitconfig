@@ -1,9 +1,9 @@
 [include]
-  path = ~/.gitconfig_local
+	path = ~/.gitconfig_local
 [core]
 	editor = vim
 [alias]
-  aliases = !git config --get-regexp alias | sed -re 's/alias\\.(\\S*)\\s(.*)$/\\1 = \\2/g'
+	aliases = !git config --get-regexp alias | sed -re 's/alias\\.(\\S*)\\s(.*)$/\\1 = \\2/g'
 	pushf = push --force-with-lease --force-if-includes
 	logg = log --graph --date=relative --pretty=tformat:'%Cred%h%Creset -%C(auto)%d%Creset %s %Cgreen(%an %ad)%Creset'
 	oops = commit --amend --no-edit
