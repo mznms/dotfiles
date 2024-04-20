@@ -22,6 +22,11 @@ set ignorecase
 set smartcase
 set mouse=a
 
+set listchars=tab:»-,trail:•
+set list
+hi NonText ctermbg=none ctermfg=8 gui=none guifg=darkgrey
+hi SpecialKey ctermbg=none ctermfg=8 gui=none guifg=darkgrey
+
 let mapleader = "\<Space>"
 nmap / /\v
 nmap <Leader><Leader> V
