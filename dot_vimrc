@@ -32,6 +32,6 @@ nmap / /\v
 nmap <Leader><Leader> V
 nmap <Esc><Esc> :nohlsearch<CR><Esc>
 inoremap jk <ESC>
- 
+
 syntax on
 filetype plugin indent on
