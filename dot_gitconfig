@@ -9,3 +9,5 @@
 	oops = commit --amend --no-edit
 [color]
 	ui = auto
+[commit]
+	verbose = true
