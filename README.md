@@ -11,5 +11,5 @@
 2. Download this repo and apply the dotfiles.
 
    - ```sh
-      chezmoi init --apply mznms
+      chezmoi init --apply --ssh mznms
      ```
