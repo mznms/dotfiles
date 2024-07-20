@@ -1,3 +1,0 @@
-[submodule "external_dot_emacs.d"]
-	path = external_dot_emacs.d
-	url = https://github.com/mznms/.emacs.d.git
