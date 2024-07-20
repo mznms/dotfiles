@@ -8,5 +8,8 @@ jobs:
     timeout-minutes: 10
     steps:
       - uses: actions/checkout@v4
+      - name: Configure Git
+        run: |
+        git config --global url."https://github.com/".insteadOf git@github.com:
       - name: Install dotfiles
         run: sh -c "$(curl -fsLS chezmoi.io/get)" -- init --apply -S .
